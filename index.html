@@ -3,159 +3,292 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitLife Gym</title>
+    <title>Shopping Website</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>     
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <img src="images/gymlogo.png" alt="FitLife Gym Logo" class="logo">
-            <h1>Welcome to FitLife Gym</h1>
-            <nav>
-                <ul>
-                    <li><a href="#packages">Packages</a></li>
-                    <li><a href="#timings">Timings</a></li>
-                    <li><a href="#offers">Offers</a></li>
-                    <li><a href="#gears">Gym Gear</a></li>
-                    <li><a href="#nutrition">Nutrition & Supplements</a></li>
-                    <li><a href="#registration">Register</a></li>
-                </ul>
-            </nav>
+    <header style="background-color:deeppink;">
+        <div class="logo">
+            <img src="images/toplogo.png" alt="Shopping Logo">
+            <h2>Online Shop</h2>
         </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#footer-content">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="packages">
-        <h2>Our Packages</h2>
-        <div class="package">
-            <img src="images/pic1.jpg" alt="Basic Package">
-            <h3>Basic Package</h3>
-            <p>$30/month</p>
-            <p>Access to all gym equipment</p>
-        </div>
-        <div class="package">
-            <img src="images/pic2.jpg" alt="Standard Package">
-            <h3>Standard Package</h3>
-            <p>$50/month</p>
-            <p>Basic package + 5 personal training sessions</p>
-        </div>
-        <div class="package">
-            <img src="images/pic3.jpg" alt="Premium Package">
-            <h3>Premium Package</h3>
-            <p>$80/month</p>
-            <p>Standard package + unlimited classes</p>
-        </div>
-    </section>
+    <main>
+       
+        <section id="home">
+            <div class="intro">
+                <h1>Welcome to Online Shop</h1>
+                <div class="image-container">
+                    <img src="images/toplogo.png" alt="Anime Girl" class="profile-image">
+                </div>
+            </div>
+        </section>
 
-    <section id="timings">
-        <h2>Gym Timings</h2>
-        <p>Monday - Friday: 6:00 AM - 10:00 PM</p>
-        <p>Saturday: 8:00 AM - 8:00 PM</p>
-        <p>Sunday: 8:00 AM - 6:00 PM</p>
-    </section>
+        <section class="shopping-categories">
+            
+            <div class="category category-female">
+                <h1>FEMALE</h1>
+                <div class="products">
+                    <div class="product" data-name="Female Product 1" data-price="600">
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                        <img src="images/women1.jpg" alt="Female Product 1">
+                        <h4>Female Product 1</h4>
+                        <p>₹600</p>
+                       
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                        <button class="buy-now-btn">Buy Now</button>
 
-    <section id="offers">
-        <h2>Special Offers</h2>
-        <div class="offer">
-            <h3>Join Now and Get 20% Off!</h3>
-            <p>Sign up today and enjoy a 20% discount on your first month of membership. Don't miss out!</p>
-        </div>
-        <div class="offer">
-            <h3>Refer a Friend</h3>
-            <p>Refer a friend and receive a free personal training session. Help us grow our community!</p>
-        </div>
-        <div class="offer">
-            <h3>Summer Special</h3>
-            <p>Join our gym during the summer and get free access to all group classes. Stay fit this summer!</p>
-        </div>
-    </section>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Female Product 2" data-price="750">
+                        <img src="images/women2.jpg" alt="Female Product 2">
+                        <h4>Female Product 2</h4>
+                        <p>₹750</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Female Product 3" data-price="980" >
+                        <img src="images/women3.jpg" alt="Female Product 3">
+                        <h4>Female Product 3</h4>
+                        <p>₹980</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Female Product 4" data-price="1000" >
+                        <img src="images/women4.jpg" alt="Female Product 4">
+                        <h4>Female Product 4</h4>
+                        <p>₹1000</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Female Product 5" data-price="1100" >
+                        <img src="images/women5.jpg" alt="Female Product 5">
+                        <h4>Female Product 5</h4>
+                        <p>₹1100</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Female Product 6" data-price="1500">
+                        <img src="images/women6.jpg" alt="Female Product 6">
+                        <h4>Female Product 6</h4>
+                        <p>₹1500</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Female Product 7" data-price="1450">
+                        <img src="images/women7.jpg" alt="Female Product 7">
+                        <h4>Female Product 7</h4>
+                        <p>₹1450</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Female Product 8" data-price="1700">
+                        <img src="images/women8.jpg" alt="FemaleProduct 8">
+                        <h4>Female Product 8</h4>
+                        <p>₹1700</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                        
+                    
+                </div>
+            </div>
+            <hr>
+            <div class="category category-male">
+                <h1>MALE</h1>
+                <div class="products">
+                    <div class="product" data-name="Male Product 1" data-price="1000">
+                        <img src="images/male1.jpg" alt="Male Product 1">
+                        <h4>Male Product 1</h4>
+                        <p>₹1000</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Male Product 2" data-price="1200" >
+                        <img src="images/male2.jpg" alt="Male Product 2">
+                        <h4>Male Product 2</h4>
+                        <p>₹1200</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
 
-    <section id="gears">
-        <h2>Gym Gear</h2>
-        <div class="gear-item">
-            <img src="images/gloves.jpg" alt="Gym Gloves">
-            <h3>Gym Gloves</h3>
-            <p>High-quality gym gloves for better grip and protection. Available in various sizes.</p>
-            <p>Price: $15</p>
-        </div>
-        <div class="gear-item">
-            <img src="images/resistanceband.jpg" alt="Resistance Bands">
-            <h3>Resistance Bands</h3>
-            <p>Durable resistance bands for strength training. Includes multiple resistance levels.</p>
-            <p>Price: $20</p>
-        </div>
-        <div class="gear-item">
-            <img src="images/yogamat.jpg" alt="Yoga Mats">
-            <h3>Yoga Mats</h3>
-            <p>Comfortable and non-slip yoga mats. Perfect for yoga and other floor exercises.</p>
-            <p>Price: $25</p>
-        </div>
-        <div class="gear-item">
-            <img src="images/waterbottle.jpg" alt="Water Bottle">
-            <h3>Water Bottles</h3>
-            <p>Eco-friendly water bottles. Keep yourself hydrated during workouts.</p>
-            <p>Price: $10</p>
-        </div>
-    </section>
+                    <div class="product" data-name="Male Product 3" data-price="900">
+                        <img src="images/male3.jpg" alt="Male Product 3">
+                        <h4>Male Product 3</h4>
+                        <p>₹900</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Male Product 4" data-price="1100">
+                        <img src="images/male4.jpg" alt="Male Product 4">
+                        <h4>Male Product 4</h4>
+                        <p>₹1100</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Male product 5" data-price="1600">
+                        <img src="images/male5.webp" alt="Male product 5">
+                        <h4>Male product 5</h4>
+                        <p>₹1600</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Male product 6" data-price="1200" >
+                        <img src="images/male6.jpg" alt="Male product 6">
+                        <h4>Male product 6</h4>
+                        <p>₹1200</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Male product 7" data-price="950">
+                        <img src="images/male7.jpg" alt="Male product 7">
+                        <h4>Male product 7</h4>
+                        <p>₹950</p>      
+                        <button class="buy-now-btn">Buy Now</button>                                      
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Male product 8" data-price="1800">
+                        <img src="images/male8.jpg" alt="Male product 8">
+                        <h4>Male product 5</h4>
+                        <p>₹1800</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+            <hr>
+            <div class="category category-children">
+                <h1>CHILDREN</h1>
+                <div class="products">
+                    <div class="product" data-name="Children Product 1" data-price="1540">
+                        <img src="images/child11.jpg" alt="Children Product 1">
+                        <h4>Children Product 1</h4>
+                        <p>₹1540</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Children Product 2" data-price="1500">
+                        <img src="images/child2.jpg" alt="Children Product 2">
+                        <h4>Children Product 2</h4>
+                        <p>₹1500</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
 
-    <section id="nutrition">
-        <h2>Nutrition & Supplements</h2>
-        <div class="supplement">
-            <img src="images/protien.jpg" alt="Protein Powders">
-            <h3>Protein Powders</h3>
-            <p>High-quality protein powders to support muscle growth and recovery.</p>
-            <p>Price: $30</p>
+                    <div class="product" data-name="Children Product 3" data-price="950" >
+                        <img src="images/child3.jpg" alt="Children Product 3">
+                        <h4>Children Product 3</h4>
+                        <p>₹950</p>     
+                        <button class="buy-now-btn">Buy Now</button>                 
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div> 
+                    <div class="product" data-name="Children Product 4" data-price="1450" >
+                        <img src="images/child4.jpg" alt="Children Product 4">
+                        <h4>Children Product 4</h4>
+                        <p>₹1450</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Children Product 5" data-price="1100" >
+                        <img src="images/child5.jpg" alt="Children Product 5">
+                        <h4>Children Product 5</h4>
+                        <p>₹1100</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Children Product 6" data-price="1000" >
+                        <img src="images/child6.jpg" alt="Children Product 6">
+                        <h4>Children Product 6</h4>
+                        <p>₹1000</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Children Product 7" data-price="850" >
+                        <img src="images/childd7.jpg" alt="Children Product 7">
+                        <h4>Children Product 7</h4>
+                        <p>₹850</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Children Product 8" data-price="600" >
+                        <img src="images/child88.jpg" alt="Children Product 8">
+                        <h4>Children Product 8</h4>
+                        <p>₹600</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    <!-- Buy Now Modal -->
+    <div class="modal" id="buyNowModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Payment and Address Details</h2>
+            <form id="orderForm">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label>Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="address" required>
+                    <label>Address</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="city" required>
+                    <label>City</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="zip" required>
+                    <label>Zip Code</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="cardNumber" required>
+                    <label>Card Number</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="expiryDate" required>
+                    <label>Expiry Date (MM/YY)</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="cvv" required>
+                    <label>CVV</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="totalAmount" readonly>
+                    <label>Total Amount</label>
+                </div>
+                <button type="submit" class="order-btn">Place Order</button>
+            </form>
         </div>
-        <div class="supplement">
-            <img src="images/preworkout.jpg" alt="Pre-Workout Supplements">
-            <h3>Pre-Workout Supplements</h3>
-            <p>Boost your energy and performance with our pre-workout supplements.</p>
-            <p>Price: $25</p>
-        </div>
-        <div class="supplement">
-            <img src="images/vitamins.jpg" alt="Vitamins and Minerals">
-            <h3>Vitamins and Minerals</h3>
-            <p>Essential vitamins and minerals to keep you healthy and active.</p>
-            <p>Price: $20</p>
-        </div>
-        <div class="supplement">
-            <img src="images/meals.jpg" alt="Meal Replacement Shakes">
-            <h3>Meal Replacement Shakes</h3>
-            <p>Nutritious meal replacement shakes for convenient and balanced nutrition.</p>
-            <p>Price: $35</p>
-        </div>
-    </section>
+    </div>
 
-    <section id="registration">
-        <h2>Register Now</h2>
-        <form id="registrationForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" required>
-            <label for="package">Select Package:</label>
-            <select id="package" name="package" required>
-                <option value="basic">Basic</option>
-                <option value="standard">Standard</option>
-                <option value="premium">Premium</option>
-            </select>
-            <button type="submit">Register</button>
-        </form>
-    </section>
+    <!-- Order Confirmation -->
+    <div id="orderConfirmation" class="confirmation">
+        <h2>Order Placed Successfully!</h2>
+    </div> 
+    </main>
 
     <footer>
-        <div class="footer-content">
-            <img src="images/gymlogo.png" alt="FitLife Gym Logo" class="logo">
-            <p>&copy; 2024 FitLife Gym. All rights reserved.</p>
-            <ul>
-                <li><a href="#packages">Packages</a></li>
-                <li><a href="#timings">Timings</a></li>
-                <li><a href="#offers">Offers</a></li>
-                <li><a href="#gears">Gym Gear</a></li>
-                <li><a href="#nutrition">Nutrition & Supplements</a></li>
-                <li><a href="#registration">Register</a></li>
-            </ul>
+        <div id="footer-content">
+            <p>&copy; 2024 My Shopping Website</p>
+            <p>Contact us at: <a href="mailto:info@myshoppingwebsite.com">info@myshoppingwebsite.com</a></p>
+            <p>phone no: 0123456789</p>
         </div>
     </footer>
 
